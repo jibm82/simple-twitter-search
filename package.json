@@ -1,0 +1,27 @@
+{
+  "name": "simple-twitter-search",
+  "version": "1.0.0",
+  "description": "Twitter search test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibm82/simple-twitter-search.git"
+  },
+  "author": "Jorge Baez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jibm82/simple-twitter-search/issues"
+  },
+  "homepage": "https://github.com/jibm82/simple-twitter-search#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
